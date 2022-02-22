@@ -9,6 +9,7 @@
     "server/**"
   ],
   "scripts": {
+    "bootstrap": "lerna exec npm install",
     "start": "lerna run start --stream",
     "build": "lerna run build --stream"
   },
