@@ -1,6 +1,10 @@
 {
   "name": "root",
   "private": true,
+  "packages": [
+    "client/**",
+    "server/**"
+  ],
   "scripts": {
     "start": "lerna run start --stream",
     "build": "lerna run build --stream"
