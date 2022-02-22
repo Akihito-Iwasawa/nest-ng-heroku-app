@@ -5,6 +5,7 @@
     "node": "16.x"
   },
   "scripts": {
+    "preinstall": "npm install -g angular-cli",
     "start": "lerna run start --stream",
     "build": "lerna exec npm install && lerna run build --stream"
   },
