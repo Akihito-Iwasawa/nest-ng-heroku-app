@@ -9,8 +9,10 @@
     "server/*"
   ],
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "start": "lerna run start --stream",
-    "build": "lerna run build --include-dependencies --stream"
+    "postinstall": "npm run bootstrap",
+    "build": "lerna run build --stream"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
