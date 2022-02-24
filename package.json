@@ -10,11 +10,7 @@
   ],
   "scripts": {
     "start": "lerna run start --stream",
-    "build": "lerna run build --stream"
-  },
-  "dependencies": {
-    "@angular/cli": "~13.2.4",
-    "@angular/compiler-cli": "~13.2.0"
+    "build": "lerna run build --include-dependencies --stream"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
