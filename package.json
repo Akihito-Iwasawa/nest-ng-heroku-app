@@ -5,8 +5,8 @@
     "node": "16.x"
   },
   "packages": [
-    "client/**",
-    "server/**"
+    "client/*",
+    "server/*"
   ],
   "scripts": {
     "start": "lerna run start --stream",
