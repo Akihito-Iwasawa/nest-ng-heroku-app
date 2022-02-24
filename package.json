@@ -4,15 +4,15 @@
   "engines": {
     "node": "16.x"
   },
+  "packages": [
+    "client/**",
+    "server/**"
+  ],
   "scripts": {
     "start": "lerna run start --stream",
     "build": "lerna run build --stream"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
-  },
-  "packages": [
-    "client/**",
-    "server/**"
-  ]
+  }
 }
